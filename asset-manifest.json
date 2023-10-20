@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/marvel-studio/static/css/main.2cace35f.css",
+    "main.js": "/marvel-studio/static/js/main.f4b1ae0c.js",
+    "static/js/851.9095a8d4.chunk.js": "/marvel-studio/static/js/851.9095a8d4.chunk.js",
+    "static/js/845.2c392d73.chunk.js": "/marvel-studio/static/js/845.2c392d73.chunk.js",
+    "static/js/622.e46fe9c7.chunk.js": "/marvel-studio/static/js/622.e46fe9c7.chunk.js",
+    "static/media/desk.jpg": "/marvel-studio/static/media/desk.f614578fbab2a1b10172.jpg",
+    "static/media/hulk1.png": "/marvel-studio/static/media/hulk1.61061a1b7c79b9b9216b.png",
+    "static/media/panther1.png": "/marvel-studio/static/media/panther1.d33398b12d6a9cb20122.png",
+    "static/media/panther2.png": "/marvel-studio/static/media/panther2.bf6458e7333b962bf873.png",
+    "static/media/hulk2.png": "/marvel-studio/static/media/hulk2.1bc18e8a64de986e4455.png",
+    "static/media/mob.jpg": "/marvel-studio/static/media/mob.75d929a56d869cd02918.jpg",
+    "static/media/big.jpg": "/marvel-studio/static/media/big.c29a05f8421c1a04fc65.jpg",
+    "static/media/full.jpg": "/marvel-studio/static/media/full.d6927b2ac17428825035.jpg",
+    "index.html": "/marvel-studio/index.html",
+    "main.2cace35f.css.map": "/marvel-studio/static/css/main.2cace35f.css.map",
+    "main.f4b1ae0c.js.map": "/marvel-studio/static/js/main.f4b1ae0c.js.map",
+    "851.9095a8d4.chunk.js.map": "/marvel-studio/static/js/851.9095a8d4.chunk.js.map",
+    "845.2c392d73.chunk.js.map": "/marvel-studio/static/js/845.2c392d73.chunk.js.map",
+    "622.e46fe9c7.chunk.js.map": "/marvel-studio/static/js/622.e46fe9c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cace35f.css",
+    "static/js/main.f4b1ae0c.js"
+  ]
+}
