@@ -25,7 +25,7 @@ const RandomCharacter = () => {
     };
   }, [heroes]);
 
-  const imageSize = "standard_xlarge";
+  const imageSize = "standard_fantastic";
 
   return (
     <RandomWrapper className="section">

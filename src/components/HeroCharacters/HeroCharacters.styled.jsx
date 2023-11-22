@@ -1,32 +1,54 @@
 import spider from "../../images/hero/bg/mob.jpg";
 import spiderDesk from "../../images/hero/bg/desk.jpg";
+import comics from "../../images/comics/bg.jpg";
 import styled from "styled-components";
 
 export const Section = styled.section`
   padding-block: 220px 20px;
-  background: linear-gradient(
-      180deg,
-      rgba(12, 11, 11, 0.31) 0%,
-      rgba(12, 11, 11, 0) 100%
-    ),
-    url(${spider});
-  background-repeat: no-repeat;
-  background-size: cover;
 
   @media (min-width: 768px) {
     padding-block: 278px 32px;
   }
 
   @media (min-width: 1440px) {
+    padding-bottom: 64px;
+  }
+
+  &.characters-wrapper {
     background: linear-gradient(
         180deg,
         rgba(12, 11, 11, 0.31) 0%,
         rgba(12, 11, 11, 0) 100%
       ),
-      url(${spiderDesk});
+      url(${spider});
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 64px;
+
+    @media (min-width: 1440px) {
+      background: linear-gradient(
+          180deg,
+          rgba(12, 11, 11, 0.31) 0%,
+          rgba(12, 11, 11, 0) 100%
+        ),
+        url(${spiderDesk});
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  &.comics-wrapper {
+    background: linear-gradient(91deg, rgba(12, 11, 11, 0) 78.74%, #0c0b0b 96%),
+      linear-gradient(2deg, #0c0b0b 2.15%, rgba(12, 11, 11, 0) 32.65%),
+      linear-gradient(84deg, #0c0b0b 4.87%, rgba(12, 11, 11, 0) 15.93%),
+      linear-gradient(180deg, #0c0b0b 0%, rgba(12, 11, 11, 0) 72.35%),
+      url(${comics}), lightgray 50%;
+    background-color: #0c0b0b;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: 768px) {
+      background-position: left 169px top;
+    }
   }
 
   & .text {

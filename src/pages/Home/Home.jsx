@@ -1,4 +1,5 @@
 import HeroHome from "../../components/HeroHome/HeroHome";
+import LastComics from "../../components/LastComics/LastComics";
 import RandomCharacter from "../../components/RandomCharacter/RandomCharacter";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <HeroHome />
       <RandomCharacter />
+      <LastComics />
     </div>
   );
 };

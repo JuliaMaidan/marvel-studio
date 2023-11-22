@@ -3,7 +3,7 @@ import { Section } from "./HeroCharacters.styled";
 
 const HeroCharacters = () => {
   return (
-    <Section>
+    <Section className="characters-wrapper">
       <div className="section">
         <p className="text">Web-based platform</p>
         <h1 className="caption">Characters</h1>

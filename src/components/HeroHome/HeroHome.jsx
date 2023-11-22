@@ -68,31 +68,79 @@ const HeroHome = () => {
         <Link to="/characters">
           <Button>All Characters</Button>
         </Link>
+        <Link to="/comics">
+          <Button>All Comics</Button>
+        </Link>
       </Wrapper>
 
       <Box
         sx={{
-          height: 700,
-          // width: 2,
+          // height: 700,
+          position: "relative",
+          "@media (min-width: 768px)": {
+            // height: 700, // Змініть стиль для екранів шириною 600px і менше
+          },
+          "@media (min-width: 1440px)": {
+            // height: 700, // Змініть стиль для екранів шириною 600px і менше
+          },
         }}
       >
         <Tabs
-          orientation="vertical"
+          orientation={
+            window.innerWidth >= 768 && window.innerWidth <= 1439
+              ? "horizontal"
+              : "vertical"
+          }
           indicatorColor="red"
-          variant="scrollable"
           value={value}
           onChange={handleChange}
           sx={{
-            borderRight: 2,
-            borderColor: "rgba(23, 23, 23, 0.70)",
+            backgroundColor: "rgba(23, 23, 23, 0.70)",
             position: "absolute",
-            left: 0,
             color: "red",
+            right: 0,
+            width: 4,
+            // height: "auto",
+            "@media (min-width: 768px)": {
+              left: 210,
+              top: 680,
+              width: 270,
+              height: 4,
+            },
+            "@media (min-width: 1440px)": {
+              left: -60,
+              top: 320,
+              width: 4,
+            },
           }}
         >
-          <Tab {...a11yProps(0)} />
-          <Tab {...a11yProps(1)} />
-          <Tab {...a11yProps(2)} />
+          <Tab
+            {...a11yProps(0)}
+            sx={{
+              "&.Mui-selected": {
+                color: "#600404",
+                backgroundColor: "#600404",
+              },
+            }}
+          />
+          <Tab
+            {...a11yProps(1)}
+            sx={{
+              "&.Mui-selected": {
+                color: "#5B7F3C",
+                backgroundColor: "#5B7F3C",
+              },
+            }}
+          />
+          <Tab
+            {...a11yProps(2)}
+            sx={{
+              "&.Mui-selected": {
+                color: "#34387F",
+                backgroundColor: "#34387F",
+              },
+            }}
+          />
         </Tabs>
         <TabPanel value={value} index={0}>
           <Spiderman />
